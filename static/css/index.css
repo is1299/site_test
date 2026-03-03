@@ -279,8 +279,8 @@ body {
 .results-carousel video {
   margin: 0;
   border-radius: var(--border-radius);
-  width: 100%;
-  height: auto;
+  /* width: 100%;
+  height: auto; */
 }
 
 .results-carousel .subtitle {
