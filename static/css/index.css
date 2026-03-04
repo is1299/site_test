@@ -1558,5 +1558,6 @@ a:focus {
   margin-left: auto;   /* pushes these logos to the right */
   display: flex;
   gap: 20px;
-  align-items: right;
+  align-items: centre;
 }
+
