@@ -806,3 +806,15 @@ a:focus {
 .institution-logos img:hover {
   opacity: 1;
 }
+.institution-logos {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.right-logos {
+  margin-left: auto;   /* pushes these logos to the right */
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
