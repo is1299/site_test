@@ -748,12 +748,25 @@ a:focus {
     box-shadow: none !important;
   }
 }
-.teaser-img {
-  width: 65%;
-  max-width: 900px;
-  height: auto;
-  display: block;
+
+/* Teaser image styling */
+.teaser-figure {
+  display: flex;
+  justify-content: center;
   margin: 0 auto;
 }
 
+.teaser-img {
+  width: 60%;
+  max-width: 850px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: var(--shadow-md);
+}
+
+.teaser-caption {
+  margin-top: 1rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
 
