@@ -796,3 +796,8 @@ a:focus {
   gap: 20px;
   align-items: center;
 }
+.teaser-caption {
+  margin-top: 1rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
