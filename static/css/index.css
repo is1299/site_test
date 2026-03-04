@@ -781,7 +781,8 @@ a:focus {
 
 .institution-logos img {
     /* smaller logos */
-  width: 2cm;
+  height: 2cm
+  
   object-fit: contain;
   opacity: 0.9;
 }
