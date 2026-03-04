@@ -1,4 +1,4 @@
-/* Modern CSS Variables for consistent theming */
+z/* Modern CSS Variables for consistent theming */
 :root {
   --primary-color: #2563eb;
   --primary-hover: #1d4ed8;
@@ -780,8 +780,8 @@ a:focus {
 }
 
 .institution-logos img {
-  height: 10cm;   /* smaller logos */
-  width: 100px;
+    /* smaller logos */
+  width: 2cm;
   object-fit: contain;
   opacity: 0.9;
 }
