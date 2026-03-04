@@ -810,12 +810,3 @@ a:focus {
   margin-bottom: 20px;
 }
 
-.logo-left img {
-  display: block;
-}
-
-.logo-right {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
