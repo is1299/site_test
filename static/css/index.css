@@ -1,4 +1,4 @@
-/* Modern CSS Variables for consistent theming */
+z/* Modern CSS Variables for consistent theming */
 :root {
   --primary-color: #2563eb;
   --primary-hover: #1d4ed8;
@@ -768,4 +768,54 @@ a:focus {
   margin-top: 1rem;
   font-weight: 500;
   color: var(--text-secondary);
+}
+/* Institution logos above title */
+
+.institution-logos {
+  display: flex;
+  justify-content: centre;
+  
+  gap: 24px;   /* less space between logos */
+  margin-bottom: 15px;
+}
+
+.institution-logos img:hover {
+  opacity: 1;
+}
+.institution-logos {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.right-logos {
+  margin-left: auto;   /* pushes these logos to the right */
+  display: flex;
+  gap: 20px;
+  align-items: right;
+}
+
+
+.institution-logos img {
+    /* smaller logos */
+  height: 2cm
+  
+  object-fit: contain;
+  opacity: 0.9;
+}
+.institution-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo-left img {
+  display: block;
+}
+
+.logo-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
