@@ -774,7 +774,7 @@ a:focus {
 .institution-logos {
   display: flex;
   justify-content: centre;
-  align-items: right;
+  
   gap: 24px;   /* less space between logos */
   margin-bottom: 15px;
 }
