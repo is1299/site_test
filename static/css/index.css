@@ -794,3 +794,28 @@ a:focus {
   gap: 20px;
   align-items: right;
 }
+
+
+.institution-logos img {
+    /* smaller logos */
+  height: 2cm
+  
+  object-fit: contain;
+  opacity: 0.9;
+}
+.institution-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo-left img {
+  display: block;
+}
+
+.logo-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
