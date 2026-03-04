@@ -784,3 +784,15 @@ a:focus {
   border-radius: 10px;
   box-shadow: var(--shadow-md);
 }
+.institution-logos {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.right-logos {
+  margin-left: auto;   /* pushes these logos to the right */
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
