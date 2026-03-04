@@ -780,7 +780,7 @@ a:focus {
 }
 
 .institution-logos img {
-  height: 100px;   /* smaller logos */
+  height: 10cm;   /* smaller logos */
   width: 100px;
   object-fit: contain;
   opacity: 0.9;
