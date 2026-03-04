@@ -779,23 +779,6 @@ a:focus {
   margin-bottom: 15px;
 }
 
-.institution-logos img:hover {
-  opacity: 1;
-}
-.institution-logos {
-  display: flex;
-  align-items: center;
-  width: 100%;
-}
-
-.right-logos {
-  margin-left: auto;   /* pushes these logos to the right */
-  display: flex;
-  gap: 20px;
-  align-items: right;
-}
-
-
 .institution-logos img {
     /* smaller logos */
   height: 2cm
@@ -818,4 +801,20 @@ a:focus {
   display: flex;
   align-items: center;
   gap: 20px;
+}
+
+.institution-logos img:hover {
+  opacity: 1;
+}
+.institution-logos {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.right-logos {
+  margin-left: auto;   /* pushes these logos to the right */
+  display: flex;
+  gap: 20px;
+  align-items: right;
 }
