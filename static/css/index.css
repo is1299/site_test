@@ -1542,7 +1542,7 @@ a:focus {
   justify-content: centre;
   
   gap: 24px;   /* less space between logos */
-  margin-bottom: 15px;
+  margin-bottom: 2rem;
 }
 
 .institution-logos img:hover {
@@ -1555,7 +1555,7 @@ a:focus {
 }
 
 .right-logos {
-  margin-left: auto;   /* pushes these logos to the right */
+  margin-left: 2rem;   /* pushes these logos to the right */
   display: flex;
   gap: 20px;
   align-items: centre;
