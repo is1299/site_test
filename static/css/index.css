@@ -773,8 +773,8 @@ a:focus {
 
 .institution-logos {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: right;
+  align-items: right;
   gap: 24px;   /* less space between logos */
   margin-bottom: 15px;
 }
@@ -782,7 +782,7 @@ a:focus {
 .institution-logos img {
   height: 32px;   /* smaller logos */
   width: 32px;
-  object-fit: contain;
+  
   opacity: 0.9;
 }
 
