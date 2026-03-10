@@ -1539,7 +1539,7 @@ a:focus {
 
 .institution-logos {
   display: flex;
-  justify-content: centre;
+  justify-content: right;
   
   gap: 24px;   /* less space between logos */
   margin-bottom: 2rem;
