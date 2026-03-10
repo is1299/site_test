@@ -1562,10 +1562,11 @@ a:focus {
 }
 
 .left-logos {
-  margin-left: 2rem;   /* pushes these logos to the right */
   display: flex;
   gap: 20px;
-  align-items: left;
+  align-items: center;
+  justify-content: flex-start;
+  margin-right: auto;
 }
 /* Results figure container */
 
