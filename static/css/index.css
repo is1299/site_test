@@ -1558,9 +1558,15 @@ a:focus {
   margin-left: 2rem;   /* pushes these logos to the right */
   display: flex;
   gap: 20px;
-  align-items: centre;
+  align-items: right;
 }
 
+.left-logos {
+  margin-left: 2rem;   /* pushes these logos to the right */
+  display: flex;
+  gap: 20px;
+  align-items: left;
+}
 /* Results figure container */
 
 .results-container {
