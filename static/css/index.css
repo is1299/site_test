@@ -1555,7 +1555,7 @@ a:focus {
 }
 
 .right-logos {
-  margin-left: 2rem;   /* pushes these logos to the right */
+  
   display: flex;
   gap: 20px;
   align-items: right;
